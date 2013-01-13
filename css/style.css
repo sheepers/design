@@ -5,7 +5,7 @@
 body{
 	font-family:"Trebuchet MS", "Myriad Pro", Arial, sans-serif;
 	font-size:14px;
-	background:#f4f4f4 url(../images/bg.jpg) no-repeat; 
+	background:#f4f4f4 url(../images/bg_head.jpg) no-repeat; 
 	background-size: 100%;
 	color:#333;
 	text-shadow:1px 1px 1px #fff;
@@ -15,6 +15,7 @@ h1{
 	font-size:56px;
 	color:black;
 	margin:0px 0px 0px 30px ;
+	
 }
 h2{
 	font-size:20px;
@@ -34,12 +35,13 @@ p{
 	padding:5px 0px;
 }
 .wrapper{
-	width:960px;
 	margin:20px auto;
 	float:left;
+	border-radius:10px;
+	width:25%;
+	
 }
 .box{
-	width:49%;
 }
 .left{
 	float:left;
@@ -62,12 +64,14 @@ a.back{
 	background:#fff;
 	border:0px solid #ddd;
 	margin:0px 0px 0px 30px ;
-	width:350px;
 	font-size:16px;
 	-moz-box-shadow:1px 1px 7px black;
 	-webkit-box-shadow:1px 1px 7px black;
 	box-shadow:1px 1px 7px black;
 	float:left;
+	border-radius:10px;
+	width:100%;
+	
 }
 .form_wrapper h3{
 	padding:20px 30px 20px 30px;
@@ -75,30 +79,29 @@ a.back{
 	color:#fff;
 	font-size:25px;
 	border-bottom:1px solid #ddd;
+	border-top-left-radius: 10px;
+	border-top-right-radius: 10px;
 }
 .form_wrapper form{
 	display:none;
 	background:#fff;
+	
+	
 }
-.form_wrapper .column{
-	width:47%;
-	float:left;
-}
+
+
 form.active{
 	display:block;
 }
 form.login{
-	width:400px;
-	height:487px;
+	border-radius:10px;
 	
 }
 form.register{
-	width:400px;
-	height:487px;
+	border-radius:10px;
 }
 form.forgot_password{
-	width:400px;
-	height:487px;
+	border-radius:10px;
 }
 .form_wrapper a{
 	text-decoration:none;
@@ -162,7 +165,11 @@ form.forgot_password{
 	margin-top:20px;
 	clear:both;
 	color:#fff;
+	min-height: 82px;
 	text-shadow:1px 1px 1px #000;
+	border-bottom-left-radius:10px;
+	border-bottom-right-radius:10px;
+	
 }
 .form_wrapper .bottom a{
 	display:block;
@@ -171,6 +178,7 @@ form.forgot_password{
 	text-align:right;
 	color:#ffa800;
 	text-shadow:1px 1px 1px #000;
+	
 }
 .form_wrapper a.forgot{
 	float:right;
@@ -184,16 +192,10 @@ form.forgot_password{
 }
 .form_wrapper div.remember{
 	float:left;
-	width:140px;
 	margin:20px 0px 20px 30px;
 	font-size:15px;
 }
-.form_wrapper div.textbox{
-min-height:283px;
-}
-.form_wrapper div.passbox{
-min-height:321px;
-}
+
 .form_wrapper div.remember input{
 	float:left;
 	margin:2px 5px 0px 0px;
